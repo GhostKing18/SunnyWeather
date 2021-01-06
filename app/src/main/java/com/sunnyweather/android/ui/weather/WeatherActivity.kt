@@ -124,4 +124,9 @@ class WeatherActivity : AppCompatActivity() {
         weatherLayout.visibility = View.VISIBLE
     }
 
+    fun close() {
+        drawerLayout.closeDrawers();
+    }
+
+
 }
